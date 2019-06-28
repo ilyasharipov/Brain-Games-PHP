@@ -7,8 +7,15 @@
             "email": "eanepenb@mail.ru"
         }
     ],
+    "autoload": {
+        "files": [
+            "src/cli.php"
+        ]
+    },
     "bin": [
       "bin/brain-games"
     ],
-    "require": {}
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.11"
+    }
 }
