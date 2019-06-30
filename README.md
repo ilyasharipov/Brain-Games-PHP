@@ -7,4 +7,4 @@
 [![Build Status](https://travis-ci.org/yanepenb/project-lvl1-s482.svg?branch=master)](https://travis-ci.org/yanepenb/project-lvl1-s482)
 
 ### **How to run game**
-#### **brain-even** [![asciicast](https://asciinema.org/a/0aylgdbA4vhvgEzVXGvxo8jX9.svg)](https://asciinema.org/a/0aylgdbA4vhvgEzVXGvxo8jX9)
+#### **brain-even** [View](https://asciinema.org/a/0aylgdbA4vhvgEzVXGvxo8jX9.svg)](https://asciinema.org/a/0aylgdbA4vhvgEzVXGvxo8jX9)
