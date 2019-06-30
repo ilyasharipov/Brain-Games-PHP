@@ -5,3 +5,6 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/6469dd41999438719ea4/maintainability)](https://codeclimate.com/github/yanepenb/project-lvl1-s482/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/6469dd41999438719ea4/test_coverage)](https://codeclimate.com/github/yanepenb/project-lvl1-s482/test_coverage)
 [![Build Status](https://travis-ci.org/yanepenb/project-lvl1-s482.svg?branch=master)](https://travis-ci.org/yanepenb/project-lvl1-s482)
+
+### **How to run game**
+#### **brain-even** [![asciicast](https://asciinema.org/a/0aylgdbA4vhvgEzVXGvxo8jX9.svg)](https://asciinema.org/a/0aylgdbA4vhvgEzVXGvxo8jX9)
