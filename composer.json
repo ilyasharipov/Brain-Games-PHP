@@ -13,7 +13,8 @@
     "autoload": {
         "files": [
             "src/cli.php",
-            "src/games/even.php"
+            "src/games/even.php",
+            "src/logic.php"
         ]
     },
     "bin": [
