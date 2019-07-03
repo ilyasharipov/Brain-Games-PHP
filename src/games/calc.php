@@ -15,16 +15,16 @@ function startGameCalc()
         $randomOperation = array_rand(OPERATIONS, 1);
         $operation = OPERATIONS[$randomOperation];
 
-        switch($operation) {
+        switch ($operation) {
             case '+':
                 $rigthAnswer = $randonNum1 + $randonNum2;
-            break;
+                break;
             case '-':
                 $rigthAnswer = $randonNum1 - $randonNum2;
-            break;
+                break;
             case '*':
                 $rigthAnswer = $randonNum1 * $randonNum2;
-            break;
+                break;
         }
 
         $question = "{$randonNum1} {$operation} {$randonNum2}";

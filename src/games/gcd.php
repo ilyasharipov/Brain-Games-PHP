@@ -6,9 +6,10 @@ use function BrainGames\Logic\runGame;
 
 const INFO = 'Find the greatest common divisor of given numbers.';
 
-function getGCD($num1, $num2) {
-    return !$num2 ? $num1 : getGCD($num2, $num1 % $num2);
-};
+function getGCD($num1, $num2)
+{
+    return (!$num2) ? $num1 : getGCD($num2, $num1 % $num2);
+}
 
 function startGameGcd()
 {
