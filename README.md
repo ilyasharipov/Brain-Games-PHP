@@ -16,4 +16,4 @@
 
 #### -> **brain-progression** [View](https://asciinema.org/a/WSdAz7vS7Rcl1f7RsmoEMvvMV)
 
-#### -> **brain-prime** [View]()
+#### -> **brain-prime** [View](https://asciinema.org/a/xAYsU8KnwqI39APnBnV7bHKeu)
