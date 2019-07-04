@@ -1,6 +1,12 @@
 {
     "name": "yanepenb/1hbraingames",
-    "description": "This`s a mini-games",
+    "description": "This`s a console mini-games",
+    "keywords": [
+            "console",
+            "game",
+            "brain",
+            "mini"
+        ],
     "authors": [
         {
             "name": "Ilya Sharipov",
@@ -29,6 +35,7 @@
       "bin/brain-progression",
       "bin/brain-prime"
     ],
+    "type": "project",
     "require": {
         "wp-cli/php-cli-tools": "^0.11.11"
     },
