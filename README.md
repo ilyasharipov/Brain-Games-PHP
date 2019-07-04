@@ -1,8 +1,7 @@
 ## Brain-Games PHP:
 #### This is a set of logical mini-games launched from the console.
 ## **How to install:**
-####  ```composer global require yanepenb/1hbraingames``` [View](https://asciinema.org/a/4HxdjQfGjvEIINpoyvUKTXKeh
-)
+####  ```composer global require yanepenb/1hbraingames``` [View](https://asciinema.org/a/4HxdjQfGjvEIINpoyvUKTXKeh)
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/6469dd41999438719ea4/maintainability)](https://codeclimate.com/github/yanepenb/project-lvl1-s482/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/6469dd41999438719ea4/test_coverage)](https://codeclimate.com/github/yanepenb/project-lvl1-s482/test_coverage)
