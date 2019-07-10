@@ -4,12 +4,12 @@ namespace BrainGames\Games\Calc;
 
 use function BrainGames\Logic\runGame;
 
-const INFO = 'What is the result of the expression?';
+const TASK = 'What is the result of the expression?';
 const OPERATIONS = ['+', '-', '*'];
 
 function startGameCalc()
 {
-    $runGameCalc = function () {
+    $generateGameData = function () {
         $randonNum1 = rand(1, 100);
         $randonNum2 = rand(1, 100);
         $randomOperation = array_rand(OPERATIONS, 1);
@@ -27,8 +27,8 @@ function startGameCalc()
                 break;
         }
 
-        $question = "{$randonNum1} {$operation} {$randonNum2}";
+        $question = "$randonNum1 $operation $randonNum2";
         return [$question, (string) $rigthAnswer];
     };
-    runGame(INFO, $runGameCalc);
+    runGame(TASK, $generateGameData);
 }

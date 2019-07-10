@@ -4,17 +4,21 @@ namespace BrainGames\Games\Prime;
 
 use function BrainGames\Logic\runGame;
 
-const INFO = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 function isPrime($num)
 {
-    $devisor = 2;
+    if ($num < 2) {
+        return false;
+    }
 
-    while ($devisor <= sqrt($num)) {
-        if ($num % $devisor === 0) {
+    $divisor = 2;
+
+    while ($divisor <= sqrt($num)) {
+        if ($num % $divisor === 0) {
             return false;
         } else {
-            $devisor++;
+            $divisor++;
         }
     }
     return true;
@@ -22,10 +26,10 @@ function isPrime($num)
 
 function startGamePrime()
 {
-    $runGamePrime = function () {
-        $question = rand(2, 100);
+    $generateGameData = function () {
+        $question = rand(1, 100);
         $rigthAnswer = isPrime($question) ? 'yes' : 'no';
         return [$question, $rigthAnswer];
     };
-    runGame(INFO, $runGamePrime);
+    runGame(TASK, $generateGameData);
 }

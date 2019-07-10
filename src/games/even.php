@@ -4,14 +4,20 @@ namespace BrainGames\Games\Even;
 
 use function BrainGames\Logic\runGame;
 
-const INFO = 'Answer "yes" if number even otherwise answer "no".';
+const TASK = 'Answer "yes" if number even otherwise answer "no".';
+
+function isEven($num)
+{
+    return $num % 2 === 0 ? true : false;
+}
 
 function startGameEven()
 {
-    $runGameEven = function () {
-        $question = rand(1, 100);
-        $rigthAnswer = $question % 2 === 0 ? 'yes' : 'no';
+    $generateGameData = function () {
+        $randomNum = rand(1, 100);
+        $question = $randomNum;
+        $rigthAnswer = isEven($randomNum) ? 'yes' : 'no';
         return [$question, $rigthAnswer];
     };
-    runGame(INFO, $runGameEven);
+    runGame(TASK, $generateGameData);
 }

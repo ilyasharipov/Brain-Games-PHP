@@ -5,19 +5,19 @@ namespace BrainGames\Logic;
 use function \cli\line;
 use function \cli\prompt;
 
-function runGame($info, $game)
+const NUMBER_OF_ROUNDS = 3;
+
+function runGame($info, $getQuestionAndAnswer)
 {
     line('Welcome to the Brain Games!');
     line($info);
     $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
 
-    $rounds = 3;
-
-    for ($counter = 0; $counter < 3; $counter++) {
-        [$question, $rigthAnswer] = $game();
+    for ($counter = 0; $counter < NUMBER_OF_ROUNDS; $counter++) {
+        [$question, $rigthAnswer] = $getQuestionAndAnswer();
         line("Question: {$question}");
-        $userAnswer = strtolower(prompt("Your answer"));
+        $userAnswer = prompt("Your answer");
 
         if ($userAnswer === $rigthAnswer) {
             line('Correct!');
