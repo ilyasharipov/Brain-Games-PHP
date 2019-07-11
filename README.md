@@ -11,12 +11,27 @@ composer global require yanepenb/1hbraingames
 [![Build Status](https://travis-ci.org/yanepenb/project-lvl1-s482.svg?branch=master)](https://travis-ci.org/yanepenb/project-lvl1-s482)
 
 ## **How to run game:**
-```brain-even``` ![even](http://i.imgur.com/STLmWpT.gif)
+```
+brain-even
+```
+![even](http://i.imgur.com/STLmWpT.gif)
 
-```brain-calc``` ![calc](http://i.imgur.com/M3UMyCj.gif)
+```
+brain-calc
+```
+![calc](http://i.imgur.com/M3UMyCj.gif)
 
-```brain-gcd``` ![gcd](http://i.imgur.com/coqdgsa.gif)
+```
+brain-gcd
+```
+![gcd](http://i.imgur.com/coqdgsa.gif)
 
-```brain-progression``` ![progression](http://i.imgur.com/Q39w0DY.gif)
+```
+brain-progression
+```
+![progression](http://i.imgur.com/Q39w0DY.gif)
 
-```brain-prime``` ![prime](http://i.imgur.com/m4MPe2Q.gif)
+```
+brain-prime
+```
+![prime](http://i.imgur.com/m4MPe2Q.gif)
