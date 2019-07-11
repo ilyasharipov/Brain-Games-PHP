@@ -2,7 +2,10 @@
 This is a set of logical mini-games launched from the console. List of games: Game: "Calculator" Game: "Parity Check" Game "Is it a prime number?" Game "Arithmetic Progression.
 ## **How to install:**
 
-```composer global require yanepenb/1hbraingames``` ![install](http://i.imgur.com/LzvuqhO.gif =250x)
+```
+composer global require yanepenb/1hbraingames
+
+``` ![install](http://i.imgur.com/LzvuqhO.gif)
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/6469dd41999438719ea4/maintainability)](https://codeclimate.com/github/yanepenb/project-lvl1-s482/maintainability)
 [![Build Status](https://travis-ci.org/yanepenb/project-lvl1-s482.svg?branch=master)](https://travis-ci.org/yanepenb/project-lvl1-s482)
