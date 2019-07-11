@@ -19,17 +19,17 @@ composer global require yanepenb/1hbraingames
 * ```brain-prime``` - the user is shown a random number. And he needs to answer “yes”, if the given number is simple. Otherwise, answer "no."
 
 ## **How to play games:**
-#### **brain-even**
+### **Brain-even:**
 ![even](http://i.imgur.com/STLmWpT.gif)
 
-#### **brain-calc**
+### **Brain-calc:**
 ![calc](http://i.imgur.com/M3UMyCj.gif)
 
-#### **brain-gcd**
+### **Brain-gcd:**
 ![gcd](http://i.imgur.com/coqdgsa.gif)
 
-#### **brain-progression**
+### **Brain-progression:**
 ![progression](http://i.imgur.com/Q39w0DY.gif)
 
-#### **brain-prime**
+### **Brain-prime:**
 ![prime](http://i.imgur.com/m4MPe2Q.gif)
