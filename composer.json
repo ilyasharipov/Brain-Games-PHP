@@ -1,12 +1,7 @@
 {
     "name": "yanepenb/1hbraingames",
     "description": "This`s a console mini-games",
-    "keywords": [
-            "console",
-            "game",
-            "brain",
-            "mini"
-        ],
+    "keywords": ["console", "game", "brain", "mini"],
     "authors": [
         {
             "name": "Ilya Sharipov",
@@ -19,7 +14,7 @@
     "autoload": {
         "files": [
             "src/cli.php",
-            "src/logic.php",
+            "src/engine.php",
             "src/games/even.php",
             "src/games/calc.php",
             "src/games/gcd.php",

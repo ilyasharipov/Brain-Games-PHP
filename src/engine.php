@@ -1,11 +1,11 @@
 <?php
 
-namespace BrainGames\Logic;
+namespace BrainGames\Engine;
 
 use function \cli\line;
 use function \cli\prompt;
 
-const NUMBER_OF_ROUNDS = 3;
+const ROUNDS_COUNT = 3;
 
 function runGame($info, $getQuestionAndAnswer)
 {
@@ -14,7 +14,7 @@ function runGame($info, $getQuestionAndAnswer)
     $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
 
-    for ($counter = 0; $counter < NUMBER_OF_ROUNDS; $counter++) {
+    for ($i = 0; $i < ROUNDS_COUNT; $i++) {
         [$question, $rigthAnswer] = $getQuestionAndAnswer();
         line("Question: {$question}");
         $userAnswer = prompt("Your answer");

@@ -2,7 +2,7 @@
 
 namespace BrainGames\Games\Even;
 
-use function BrainGames\Logic\runGame;
+use function BrainGames\Engine\runGame;
 
 const TASK = 'Answer "yes" if number even otherwise answer "no".';
 
@@ -14,9 +14,8 @@ function isEven($num)
 function startGameEven()
 {
     $generateGameData = function () {
-        $randomNum = rand(1, 100);
-        $question = $randomNum;
-        $rigthAnswer = isEven($randomNum) ? 'yes' : 'no';
+        $question = rand(1, 100);
+        $rigthAnswer = isEven($question) ? 'yes' : 'no';
         return [$question, $rigthAnswer];
     };
     runGame(TASK, $generateGameData);

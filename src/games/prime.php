@@ -2,7 +2,7 @@
 
 namespace BrainGames\Games\Prime;
 
-use function BrainGames\Logic\runGame;
+use function BrainGames\Engine\runGame;
 
 const TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
