@@ -8,7 +8,7 @@ This is a set of logical mini-games launched from the console. List of games: Ga
 [![Build Status](https://travis-ci.org/yanepenb/project-lvl1-s482.svg?branch=master)](https://travis-ci.org/yanepenb/project-lvl1-s482)
 
 ## **How to run game:**
-```brain-even``` ![even](http://i.imgur.com/STLmWpT.gif)
+```brain-even``` ![even](http://i.imgur.com/STLmWpT.gif =700×378)
 
 ```brain-calc``` ![calc](http://i.imgur.com/M3UMyCj.gif)
 
