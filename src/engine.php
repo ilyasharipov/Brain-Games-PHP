@@ -7,10 +7,10 @@ use function \cli\prompt;
 
 const ROUNDS_COUNT = 3;
 
-function runGame($info, $getQuestionAndAnswer)
+function runGame($task, $getQuestionAndAnswer)
 {
     line('Welcome to the Brain Games!');
-    line($info);
+    line($task);
     $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
 
@@ -28,5 +28,5 @@ function runGame($info, $getQuestionAndAnswer)
         }
     }
 
-    return line("Congratulations, {$name}!");
+    line("Congratulations, {$name}!");
 }

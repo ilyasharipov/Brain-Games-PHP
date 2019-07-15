@@ -10,7 +10,7 @@ const LENGTH_PROGRESSION = 10;
 function getProgression($start, $diff, $length)
 {
     $progression = [];
-    for ($i = 1; $i <= $length; $i++) {
+    for ($i = 0; $i < $length; $i++) {
         $progression[] = $start + $diff * $i;
     }
     return $progression;
